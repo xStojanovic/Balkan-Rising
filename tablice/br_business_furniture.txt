@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS `br_business_furniture` (
+  `ID` int(12) DEFAULT '0',
+  `Furniture_ID` int(12) NOT NULL AUTO_INCREMENT,
+  `Furniture_Name` varchar(32) DEFAULT 'Nema',
+  `Furniture_Model` int(12) DEFAULT '0',
+  `Furniture_Price` int(12) DEFAULT '0',
+  `Furniture_Slots` int(12) DEFAULT '0',
+  `Furniture_Added` int(12) DEFAULT '0',
+  PRIMARY KEY (`Furniture_ID`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

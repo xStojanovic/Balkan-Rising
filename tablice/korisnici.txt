@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS `br_users` (
+`ID` int(12) NOT NULL AUTO_INCREMENT,
+`Player_Name` varchar(24) DEFAULT NULL,
+`Player_Password` varchar(14) DEFAULT NULL,
+`Register_Date` varchar(36) DEFAULT NULL,
+`Login_Date` varchar(36) DEFAULT 'Nema',
+`Player_Level` int(12) DEFAULT '0',
+`Player_Money` int(12) DEFAULT '0',
+`Player_Skin` int(12) DEFAULT '0',
+`Player_Admin` int(12) DEFAULT '0',
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1

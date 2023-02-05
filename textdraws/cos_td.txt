@@ -1,0 +1,329 @@
+// TextDraw developed using Zamaroht's Textdraw Editor 1.0
+
+// The fuction `PlayerTextDraw´ add by adri1
+// On top of script:
+new PlayerText:Textdraw0;
+new PlayerText:Textdraw1;
+new PlayerText:Textdraw2;
+new PlayerText:Textdraw3;
+new PlayerText:Textdraw4;
+new PlayerText:Textdraw5;
+new PlayerText:Textdraw6;
+new PlayerText:Textdraw7;
+new PlayerText:Textdraw8;
+new PlayerText:Textdraw9;
+new PlayerText:Textdraw10;
+new PlayerText:Textdraw11;
+new PlayerText:Textdraw12;
+new PlayerText:Textdraw13;
+new PlayerText:Textdraw14;
+new PlayerText:Textdraw15;
+new PlayerText:Textdraw16;
+new PlayerText:Textdraw17;
+new PlayerText:Textdraw18;
+new PlayerText:Textdraw19;
+new PlayerText:Textdraw20;
+new PlayerText:Textdraw21;
+new PlayerText:Textdraw22;
+new PlayerText:Textdraw23;
+
+// In OnPlayerConnect prefferably, we procced to create our textdraws:
+Textdraw0 = CreatePlayerTextDraw(playerid,500.000000, 350.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw0, 255);
+PlayerTextDrawFont(playerid,Textdraw0, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw0, 0.500000, 11.000000);
+PlayerTextDrawColor(playerid,Textdraw0, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw0, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw0, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw0, 1);
+PlayerTextDrawUseBox(playerid,Textdraw0, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw0, 102);
+PlayerTextDrawTextSize(playerid,Textdraw0, 170.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw0, 0);
+
+Textdraw1 = CreatePlayerTextDraw(playerid,500.000000, 350.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw1, 255);
+PlayerTextDrawFont(playerid,Textdraw1, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw1, 0.500000, -0.600000);
+PlayerTextDrawColor(playerid,Textdraw1, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw1, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw1, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw1, 1);
+PlayerTextDrawUseBox(playerid,Textdraw1, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw1, 170);
+PlayerTextDrawTextSize(playerid,Textdraw1, 170.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw1, 0);
+
+Textdraw2 = CreatePlayerTextDraw(playerid,174.000000, 349.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw2, 255);
+PlayerTextDrawFont(playerid,Textdraw2, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw2, 0.500000, 11.399999);
+PlayerTextDrawColor(playerid,Textdraw2, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw2, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw2, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw2, 1);
+PlayerTextDrawUseBox(playerid,Textdraw2, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw2, 170);
+PlayerTextDrawTextSize(playerid,Textdraw2, 170.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw2, 0);
+
+Textdraw3 = CreatePlayerTextDraw(playerid,499.000000, 349.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw3, 255);
+PlayerTextDrawFont(playerid,Textdraw3, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw3, 0.500000, 11.399999);
+PlayerTextDrawColor(playerid,Textdraw3, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw3, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw3, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw3, 1);
+PlayerTextDrawUseBox(playerid,Textdraw3, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw3, 170);
+PlayerTextDrawTextSize(playerid,Textdraw3, 495.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw3, 0);
+
+Textdraw4 = CreatePlayerTextDraw(playerid,254.000000, 434.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw4, 255);
+PlayerTextDrawFont(playerid,Textdraw4, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw4, 0.500000, 1.000000);
+PlayerTextDrawColor(playerid,Textdraw4, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw4, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw4, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw4, 1);
+PlayerTextDrawUseBox(playerid,Textdraw4, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw4, 102);
+PlayerTextDrawTextSize(playerid,Textdraw4, 193.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw4, 0);
+
+Textdraw5 = CreatePlayerTextDraw(playerid,223.000000, 434.000000, "Buy Car");
+PlayerTextDrawAlignment(playerid,Textdraw5, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw5, 51);
+PlayerTextDrawFont(playerid,Textdraw5, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw5, 0.140000, 0.899999);
+PlayerTextDrawColor(playerid,Textdraw5, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw5, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw5, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw5, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw5, 1);
+
+Textdraw6 = CreatePlayerTextDraw(playerid,500.000000, 434.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw6, 255);
+PlayerTextDrawFont(playerid,Textdraw6, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw6, 0.500000, -0.600000);
+PlayerTextDrawColor(playerid,Textdraw6, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw6, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw6, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw6, 1);
+PlayerTextDrawUseBox(playerid,Textdraw6, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw6, 170);
+PlayerTextDrawTextSize(playerid,Textdraw6, 170.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw6, 0);
+
+Textdraw7 = CreatePlayerTextDraw(playerid,359.000000, 434.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw7, 255);
+PlayerTextDrawFont(playerid,Textdraw7, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw7, 0.500000, 1.000000);
+PlayerTextDrawColor(playerid,Textdraw7, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw7, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw7, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw7, 1);
+PlayerTextDrawUseBox(playerid,Textdraw7, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw7, 102);
+PlayerTextDrawTextSize(playerid,Textdraw7, 300.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw7, 0);
+
+Textdraw8 = CreatePlayerTextDraw(playerid,330.000000, 434.000000, "Test Car");
+PlayerTextDrawAlignment(playerid,Textdraw8, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw8, 51);
+PlayerTextDrawFont(playerid,Textdraw8, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw8, 0.140000, 0.899999);
+PlayerTextDrawColor(playerid,Textdraw8, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw8, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw8, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw8, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw8, 1);
+
+Textdraw9 = CreatePlayerTextDraw(playerid,499.000000, 350.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw9, 255);
+PlayerTextDrawFont(playerid,Textdraw9, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw9, 0.500000, 1.000000);
+PlayerTextDrawColor(playerid,Textdraw9, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw9, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw9, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw9, 1);
+PlayerTextDrawUseBox(playerid,Textdraw9, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw9, 102);
+PlayerTextDrawTextSize(playerid,Textdraw9, 449.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw9, 0);
+
+Textdraw10 = CreatePlayerTextDraw(playerid,475.000000, 349.000000, "Exit");
+PlayerTextDrawAlignment(playerid,Textdraw10, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw10, 51);
+PlayerTextDrawFont(playerid,Textdraw10, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw10, 0.140000, 0.899999);
+PlayerTextDrawColor(playerid,Textdraw10, -1439485031);
+PlayerTextDrawSetOutline(playerid,Textdraw10, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw10, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw10, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw10, 1);
+
+Textdraw11 = CreatePlayerTextDraw(playerid,331.000000, 415.000000, "Infernus");
+PlayerTextDrawAlignment(playerid,Textdraw11, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw11, 51);
+PlayerTextDrawFont(playerid,Textdraw11, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw11, 0.140000, 0.899999);
+PlayerTextDrawColor(playerid,Textdraw11, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw11, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw11, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw11, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw11, 0);
+
+Textdraw12 = CreatePlayerTextDraw(playerid,298.000000, 415.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw12, 255);
+PlayerTextDrawFont(playerid,Textdraw12, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw12, 0.500000, 1.000000);
+PlayerTextDrawColor(playerid,Textdraw12, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw12, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw12, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw12, 1);
+PlayerTextDrawUseBox(playerid,Textdraw12, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw12, 102);
+PlayerTextDrawTextSize(playerid,Textdraw12, 364.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw12, 0);
+
+Textdraw13 = CreatePlayerTextDraw(playerid,296.000000, 353.000000, "previev model");
+PlayerTextDrawAlignment(playerid,Textdraw13, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw13, 51);
+PlayerTextDrawFont(playerid,Textdraw13, 5);
+PlayerTextDrawLetterSize(playerid,Textdraw13, 0.140000, 4.900000);
+PlayerTextDrawColor(playerid,Textdraw13, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw13, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw13, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw13, 1);
+PlayerTextDrawUseBox(playerid,Textdraw13, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw13, 255);
+PlayerTextDrawTextSize(playerid,Textdraw13, 70.000000, 60.000000);
+PlayerTextDrawSetPreviewModel(playerid, Textdraw13, 411);
+PlayerTextDrawSetPreviewRot(playerid, Textdraw13, -16.000000, 0.000000, -55.000000, 1.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw13, 0);
+
+Textdraw14 = CreatePlayerTextDraw(playerid,200.000000, 355.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw14, 255);
+PlayerTextDrawFont(playerid,Textdraw14, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw14, 0.500000, 0.799999);
+PlayerTextDrawColor(playerid,Textdraw14, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw14, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw14, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw14, 1);
+PlayerTextDrawUseBox(playerid,Textdraw14, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw14, 102);
+PlayerTextDrawTextSize(playerid,Textdraw14, 246.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw14, 0);
+
+Textdraw15 = CreatePlayerTextDraw(playerid,223.000000, 354.000000, "1,000$");
+PlayerTextDrawAlignment(playerid,Textdraw15, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw15, 51);
+PlayerTextDrawFont(playerid,Textdraw15, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw15, 0.140000, 0.899999);
+PlayerTextDrawColor(playerid,Textdraw15, 1640459775);
+PlayerTextDrawSetOutline(playerid,Textdraw15, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw15, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw15, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw15, 0);
+
+Textdraw16 = CreatePlayerTextDraw(playerid,200.000000, 374.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw16, 255);
+PlayerTextDrawFont(playerid,Textdraw16, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw16, 0.500000, 0.799999);
+PlayerTextDrawColor(playerid,Textdraw16, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw16, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw16, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw16, 1);
+PlayerTextDrawUseBox(playerid,Textdraw16, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw16, 102);
+PlayerTextDrawTextSize(playerid,Textdraw16, 247.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw16, 0);
+
+Textdraw17 = CreatePlayerTextDraw(playerid,224.000000, 373.000000, "260KM/H");
+PlayerTextDrawAlignment(playerid,Textdraw17, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw17, 51);
+PlayerTextDrawFont(playerid,Textdraw17, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw17, 0.140000, 0.899999);
+PlayerTextDrawColor(playerid,Textdraw17, 1640459775);
+PlayerTextDrawSetOutline(playerid,Textdraw17, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw17, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw17, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw17, 0);
+
+Textdraw18 = CreatePlayerTextDraw(playerid,199.000000, 394.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw18, 255);
+PlayerTextDrawFont(playerid,Textdraw18, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw18, 0.500000, 0.799999);
+PlayerTextDrawColor(playerid,Textdraw18, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw18, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw18, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw18, 1);
+PlayerTextDrawUseBox(playerid,Textdraw18, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw18, 102);
+PlayerTextDrawTextSize(playerid,Textdraw18, 247.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw18, 0);
+
+Textdraw19 = CreatePlayerTextDraw(playerid,224.000000, 393.000000, "10");
+PlayerTextDrawAlignment(playerid,Textdraw19, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw19, 51);
+PlayerTextDrawFont(playerid,Textdraw19, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw19, 0.140000, 0.899999);
+PlayerTextDrawColor(playerid,Textdraw19, 1640459775);
+PlayerTextDrawSetOutline(playerid,Textdraw19, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw19, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw19, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw19, 0);
+
+Textdraw20 = CreatePlayerTextDraw(playerid,199.000000, 414.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw20, 255);
+PlayerTextDrawFont(playerid,Textdraw20, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw20, 0.500000, 0.799999);
+PlayerTextDrawColor(playerid,Textdraw20, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw20, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw20, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw20, 1);
+PlayerTextDrawUseBox(playerid,Textdraw20, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw20, 102);
+PlayerTextDrawTextSize(playerid,Textdraw20, 247.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw20, 0);
+
+Textdraw21 = CreatePlayerTextDraw(playerid,224.000000, 413.000000, "4");
+PlayerTextDrawAlignment(playerid,Textdraw21, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw21, 51);
+PlayerTextDrawFont(playerid,Textdraw21, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw21, 0.140000, 0.899999);
+PlayerTextDrawColor(playerid,Textdraw21, 1640459775);
+PlayerTextDrawSetOutline(playerid,Textdraw21, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw21, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw21, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw21, 0);
+
+Textdraw22 = CreatePlayerTextDraw(playerid,456.000000, 434.000000, "_");
+PlayerTextDrawBackgroundColor(playerid,Textdraw22, 255);
+PlayerTextDrawFont(playerid,Textdraw22, 1);
+PlayerTextDrawLetterSize(playerid,Textdraw22, 0.500000, 1.000000);
+PlayerTextDrawColor(playerid,Textdraw22, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw22, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw22, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw22, 1);
+PlayerTextDrawUseBox(playerid,Textdraw22, 1);
+PlayerTextDrawBoxColor(playerid,Textdraw22, 102);
+PlayerTextDrawTextSize(playerid,Textdraw22, 399.000000, 0.000000);
+PlayerTextDrawSetSelectable(playerid,Textdraw22, 0);
+
+Textdraw23 = CreatePlayerTextDraw(playerid,429.000000, 434.000000, "Camera Move");
+PlayerTextDrawAlignment(playerid,Textdraw23, 2);
+PlayerTextDrawBackgroundColor(playerid,Textdraw23, 51);
+PlayerTextDrawFont(playerid,Textdraw23, 2);
+PlayerTextDrawLetterSize(playerid,Textdraw23, 0.140000, 0.899999);
+PlayerTextDrawColor(playerid,Textdraw23, -1);
+PlayerTextDrawSetOutline(playerid,Textdraw23, 0);
+PlayerTextDrawSetProportional(playerid,Textdraw23, 1);
+PlayerTextDrawSetShadow(playerid,Textdraw23, 1);
+PlayerTextDrawSetSelectable(playerid,Textdraw23, 1);
+
+// You can now use PlayerTextDrawShow, PlayerTextDrawHide and
+// PlayerTextDrawDestroy functions to show, hide, and destroy the textdraw.

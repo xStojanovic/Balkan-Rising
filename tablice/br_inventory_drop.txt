@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS `br_inventory_drop` (
+  `ID` int(12) NOT NULL AUTO_INCREMENT,
+  `itemName` varchar(32) DEFAULT NULL,
+  `itemModel` int(12) DEFAULT '0',
+  `itemX` float DEFAULT '0',
+  `itemY` float DEFAULT '0',
+  `itemZ` float DEFAULT '0',
+  `itemInt` int(12) DEFAULT '0',
+  `itemWorld` int(12) DEFAULT '0',
+  `itemQuantity` int(12) DEFAULT '0',
+  `itemAmmo` int(12) DEFAULT '0',
+  `itemWeapon` int(12) DEFAULT '0',
+  `itemPlayer` varchar(24) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

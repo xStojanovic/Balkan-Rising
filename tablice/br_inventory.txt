@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `br_inventory` (
+  `ID` int(12) NOT NULL AUTO_INCREMENT,
+  `invID` int(12) DEFAULT '0',
+  `invItem` varchar(32) DEFAULT NULL,
+  `invOwner`varchar(32) DEFAULT NULL,
+  `invModel` int(12) DEFAULT '0',
+  `invQuantity` int(12) DEFAULT '0',
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1

@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `br_bans` (
+`ID` int(12) NOT NULL AUTO_INCREMENT,
+`IP` varchar(16) DEFAULT 'Nema',
+`User` varchar(24) DEFAULT 'Nema',
+`BanovanOd` varchar(24) DEFAULT 'Nema',
+`Razlog` varchar(36) DEFAULT 'Nema',
+`Datum` varchar(36) DEFAULT 'Nema',
+ PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1

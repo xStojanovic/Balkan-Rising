@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `br_house_storage` (
+  `ID` int(12) DEFAULT '0',
+  `itemID` int(12) NOT NULL AUTO_INCREMENT,
+  `itemName` varchar(32) DEFAULT NULL,
+  `itemModel` int(12) DEFAULT '0',
+  `itemQuantity` int(12) DEFAULT '0',
+  PRIMARY KEY (`itemID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

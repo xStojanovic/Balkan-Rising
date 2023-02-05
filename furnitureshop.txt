@@ -1,0 +1,36 @@
+/////////////
+new furnitureshopmap;
+/////////////FURNITURE SHOP
+furnitureshopmap = CreateDynamicObject(19377,1153.136,1280.981,-77.619,0.000,90.000,0.000,-1,-1,-1,300.000,300.000);
+SetDynamicObjectMaterial(furnitureshopmap, 0, 14581, "ab_mafiasuitea", "cof_wood2", 0);
+furnitureshopmap = CreateDynamicObject(19377,1153.595,1285.792,-77.599,0.000,0.000,90.000,-1,-1,-1,300.000,300.000);
+SetDynamicObjectMaterial(furnitureshopmap, 0, 4828, "airport3_las", "gnhotelwall02_128", 0);
+furnitureshopmap = CreateDynamicObject(19377,1158.316,1281.044,-77.599,0.000,0.000,0.000,-1,-1,-1,300.000,300.000);
+SetDynamicObjectMaterial(furnitureshopmap, 0, 4828, "airport3_las", "gnhotelwall02_128", 0);
+furnitureshopmap = CreateDynamicObject(19377,1154.957,1272.891,-77.599,0.000,0.000,-45.000,-1,-1,-1,300.000,300.000);
+SetDynamicObjectMaterial(furnitureshopmap, 0, 4828, "airport3_las", "gnhotelwall02_128", 0);
+furnitureshopmap = CreateDynamicObject(19377,1148.835,1281.053,-77.599,0.000,0.000,0.000,-1,-1,-1,300.000,300.000);
+SetDynamicObjectMaterial(furnitureshopmap, 0, 4828, "airport3_las", "gnhotelwall02_128", 0);
+furnitureshopmap = CreateDynamicObject(19377,1152.175,1272.931,-77.599,0.000,0.000,45.000,-1,-1,-1,300.000,300.000);
+SetDynamicObjectMaterial(furnitureshopmap, 0, 4828, "airport3_las", "gnhotelwall02_128", 0);
+furnitureshopmap = CreateDynamicObject(19454,1153.542,1276.320,-78.573,0.000,0.000,90.000,-1,-1,-1,300.000,300.000);
+SetDynamicObjectMaterial(furnitureshopmap, 0, 4828, "airport3_las", "gnhotelwall02_128", 0);
+furnitureshopmap = CreateDynamicObject(19377,1153.817,1271.566,-76.903,0.000,90.000,0.000,-1,-1,-1,300.000,300.000);
+SetDynamicObjectMaterial(furnitureshopmap, 0, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0);
+furnitureshopmap = CreateDynamicObject(19377,1157.669,1283.940,-77.599,0.000,0.000,60.419,-1,-1,-1,300.000,300.000);
+SetDynamicObjectMaterial(furnitureshopmap, 0, 4828, "airport3_las", "gnhotelwall02_128", 0);
+furnitureshopmap = CreateDynamicObject(19377,1153.136,1280.981,-73.685,0.000,90.000,0.000,-1,-1,-1,300.000,300.000);
+SetDynamicObjectMaterial(furnitureshopmap, 0, 14668, "711c", "gun_ceiling3", 0);
+furnitureshopmap = CreateDynamicObject(19377,1153.138,1271.343,-73.685,0.000,90.000,0.000,-1,-1,-1,300.000,300.000);
+SetDynamicObjectMaterial(furnitureshopmap, 0, 14668, "711c", "gun_ceiling3", 0);
+//
+furnitureshopmap = CreateDynamicObject(19377,1153.138,1271.343,-77.619,0.000,90.000,0.000,-1,-1,-1,300.000,300.000);
+furnitureshopmap = CreateDynamicObject(1569,1148.928,1279.976,-77.553,0.000,0.000,90.000,-1,-1,-1,300.000,300.000);
+furnitureshopmap = CreateDynamicObject(1726,1154.473,1275.139,-76.875,0.000,0.000,180.000,-1,-1,-1,300.000,300.000);
+furnitureshopmap = CreateDynamicObject(1726,1150.450,1285.102,-77.558,0.000,0.000,0.000,-1,-1,-1,300.000,300.000);
+furnitureshopmap = CreateDynamicObject(1827,1151.406,1283.317,-77.572,0.000,0.000,0.000,-1,-1,-1,300.000,300.000);
+furnitureshopmap = CreateDynamicObject(2165,1156.580,1282.197,-77.532,0.000,0.000,90.000,-1,-1,-1,300.000,300.000);
+furnitureshopmap = CreateDynamicObject(1714,1157.765,1282.743,-77.550,0.000,0.000,-73.860,-1,-1,-1,300.000,300.000);
+furnitureshopmap = CreateDynamicObject(1721,1155.219,1283.364,-77.557,0.000,0.000,-133.740,-1,-1,-1,300.000,300.000);
+furnitureshopmap = CreateDynamicObject(2257,1158.209,1279.719,-75.352,0.000,0.000,-90.000,-1,-1,-1,300.000,300.000);
+furnitureshopmap = CreateDynamicObject(18075,1155.573,1280.119,-73.781,0.000,0.000,90.000,-1,-1,-1,300.000,300.000);

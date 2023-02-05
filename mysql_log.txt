@@ -1,0 +1,25 @@
+[15:21:13] >> mysql_connect(localhost, root, balkan_rising_db, ******) on port 3306
+[15:21:13] CMySQLHandler::CMySQLHandler() - constructor called.
+[15:21:13] CMySQLHandler::CMySQLHandler() - Connecting to "localhost" | DB: "balkan_rising_db" | Username: "root"
+[15:21:14] CMySQLHandler::Connect() - Can't connect to MySQL server on 'localhost' (10061) (Error ID: 2003)
+[15:21:14] >> mysql_ping( Connection handle: 1 )
+[15:21:14] CMySQLHandler::Ping() - You cannot call this function now. (Reason: Dead Connection)
+[15:21:14] >> mysql_query_callback( Connection handle: 1 )
+[15:21:14] >> mysql_query_callback( Connection handle: 1 )
+[15:21:14] >> mysql_query_callback( Connection handle: 1 )
+[15:21:14] >> mysql_query_callback( Connection handle: 1 )
+[15:21:14] >> mysql_query_callback( Connection handle: 1 )
+[15:21:14] >> mysql_query_callback( Connection handle: 1 )
+[15:25:16] >> mysql_connect(localhost, root, balkan_rising_db, ******) on port 3306
+[15:25:16] CMySQLHandler::CMySQLHandler() - constructor called.
+[15:25:16] CMySQLHandler::CMySQLHandler() - Connecting to "localhost" | DB: "balkan_rising_db" | Username: "root"
+[15:25:17] CMySQLHandler::Connect() - Can't connect to MySQL server on 'localhost' (10061) (Error ID: 2003)
+[15:25:17] >> mysql_ping( Connection handle: 1 )
+[15:25:17] CMySQLHandler::Ping() - You cannot call this function now. (Reason: Dead Connection)
+[15:25:17] >> mysql_query_callback( Connection handle: 1 )
+[15:25:17] >> mysql_query_callback( Connection handle: 1 )
+[15:25:17] >> mysql_query_callback( Connection handle: 1 )
+[15:25:17] >> mysql_query_callback( Connection handle: 1 )
+[15:25:17] >> mysql_query_callback( Connection handle: 1 )
+[15:25:17] >> mysql_query_callback( Connection handle: 1 )
+[15:25:54] >> mysql_query_callback( Connection handle: 1 )
